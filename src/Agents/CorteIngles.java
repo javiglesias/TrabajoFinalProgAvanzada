@@ -52,7 +52,7 @@ public class CorteIngles {
 							blockingReceive(
 									MessageTemplate.and(
 											MessageTemplate.MatchPerformative(ACLMessage.REQUEST),
-											MessageTemplate.MatchOntology("ontologia")));
+											MessageTemplate.MatchOntology("ontology")));
 					
 					try {
 						System.out.println("mensaje: "

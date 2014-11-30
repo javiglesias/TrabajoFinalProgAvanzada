@@ -62,8 +62,8 @@ public class Ocio {
 //nosotros usaremos la clase utils para enviar mesajes.
 			message="Actividades de ocio: ";
 			Utils.enviarMensaje(this.myAgent, "infOcio", message);
-		}
-	};
-	addBehaviour(cyclicBehaviour);
-		}
+			}
+		};
+		addBehaviour(cyclicBehaviour);
+	}
 }
